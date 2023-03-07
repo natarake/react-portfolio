@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 import "./Work.scss";
-import { Link } from "react-router-dom";
 
 const Work = () => {
   const [works, setWorks] = useState([]);
@@ -101,13 +100,10 @@ const Work = () => {
             </div>
 
             <div className="app__work-content app__flex">
-              <Link to={`/work/${work._id}`}>
-                <h4 className="bold-text link">{work.title}</h4>
-              </Link>
+              <h4 className="bold-text link">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>
                 {work.description}
               </p>
-
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
               </div>

@@ -1,15 +1,18 @@
 import React from "react";
 import "./App.scss";
-import { Home, WorkDetail } from "./pages";
-import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/work/:id" element={<WorkDetail />} />
-      </Routes>
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
     </div>
   );
 }
