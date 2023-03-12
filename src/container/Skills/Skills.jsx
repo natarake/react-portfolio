@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import CV from "../../assets/Glenn Acebedo Ladrido.pdf";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
@@ -71,7 +72,15 @@ const Skills = () => {
           <div
             style={{ display: "flex", justifyContent: "center", width: "100%" }}
           >
-            <button>Check full CV</button>
+            <button>
+              <a
+                href={CV}
+                download="Glenn_Ladrido_Resume"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                Download CV
+              </a>
+            </button>
           </div>
         </div>
       </div>

@@ -14,26 +14,6 @@ export default {
       type: 'string',
     },
     {
-      name: 'wentwell',
-      title: 'Wentwell',
-      type: 'string',
-    },
-    {
-      name: 'challenges',
-      title: 'Challenges',
-      type: 'string',
-    },
-    {
-      name: 'differences',
-      title: 'Differences',
-      type: 'string',
-    },
-    {
-      name: 'futureplans',
-      title: 'FututePlans',
-      type: 'string',
-    },
-    {
       name: 'projectLink',
       title: 'Project Link',
       type: 'string',
