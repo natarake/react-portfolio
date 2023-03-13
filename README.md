@@ -1,8 +1,8 @@
 # Sanity-React-Portfolio
 
-![Portfolio](https://i.ibb.co/3zxZ0JC/GladTube.png)
+![Portfolio](https://i.ibb.co/gWLvz5D/portfolio.png)
 
-Sanity-React-Portfolio is a portfolio tutorial by [Javascript Mastery](https://www.youtube.com/watch?v=CCF-xV3RSSs&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8&index=32). It is made using sanity and react.
+Sanity-React-Portfolio is a portfolio tutorial by [Javascript Mastery](https://www.youtube.com/watch?v=3HNyXCPDQ7Q&t=143s). It is made using sanity and react.
 
 ## What are the features of Sanity-React-Portfolio
 
@@ -15,6 +15,8 @@ To give my portfolio a unique and personalized touch, I decided to customize the
 In addition, I revamped the header section by replacing it with a React type animation that adds a dynamic element to the page. This transition is not only visually appealing but also helps to capture the attention of the viewer and keep them engaged.
 
 To simplify the user experience, I decided to remove the React tooltip and replaced it with a static display of my mini CV. This provides a clear and easily accessible way of showcasing my qualifications and achievements without requiring the user to perform any additional clicks or interactions. As an added accessibility, I also added a download CV button that downloads a PDF file of my current CV.
+
+I also utilized Vite, a build tool that offers fast and efficient development, and updated the Sanity CMS to Sanity Studio v3.
 
 ### Liked this repository?
 
