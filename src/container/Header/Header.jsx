@@ -52,7 +52,14 @@ const Header = () => (
             style={{ fontSize: "1.5em" }}
           />
         </div>
-        <button>Do you want to work with me?</button>
+        <button>
+          <a
+            href="#contact"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            Do you want to work with me?
+          </a>
+        </button>
       </div>
     </motion.div>
 
